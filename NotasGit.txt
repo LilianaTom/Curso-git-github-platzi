@@ -23,9 +23,13 @@ code archivo            --> Abrir el archivo en code
 git log                 --> Historial de los commit
 git diff                --> Para ver la diferencia de un archivo en stage
 
-Si quiero volver a una versión anterior:
+Si quiero volver a una versión anterior(Deshacer o revertir : Volvemos al pasado sin la posibilidad de volver al futuro):
 1. git log y copiar el numero del commit
 2. git reset num. del commit --soft/--hard (Soft: Conserva toda la info Hard: Vuelve a la anterior y desaparece lo que se haya hecho despues)
+
+Si quisiera ver el archivo en una versión anterior (Volvemos al pasado con la posibilidad de volver al futuro):
+3. git checkout num. commit
+4. se hace mod y se hace git add .
 
 esc shift zz para salir de la pantalla de commit.
 
