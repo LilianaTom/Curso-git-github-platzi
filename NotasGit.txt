@@ -1,0 +1,24 @@
+Parado en la carpeta que guardar el repositorio entonces en la terminal se coloca:
+    git init
+    git add archivo
+    git commit -m "Comentario"
+
+Si se realizan cambios y quiero actualizar el repositorio
+    git add .
+    git commit -m "Comentario"
+    git status
+    git show        //Muestra los cambios historicos del repositorio
+    git log archivo //Muestra los cambios de un archivo especifico
+    git push
+    
+
+ctrl +l                 --> clear
+touch archivo           --> Crear un archivo 
+rm archivo              --> Eliminar un archivo
+rm --help               --> Documentación
+git rm --cached archivo --> Para quitar de los cambios 
+git config              --> Configuración de mi git
+cat archivo             --> Para ver el contenido del archivo
+code archivo            --> Abrir el archivo en code
+git log                 --> Historial de los commit
+
