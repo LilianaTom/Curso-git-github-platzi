@@ -22,3 +22,4 @@ cat archivo             --> Para ver el contenido del archivo
 code archivo            --> Abrir el archivo en code
 git log                 --> Historial de los commit
 
+esc shift zz para salir de la pantalla de commit.
