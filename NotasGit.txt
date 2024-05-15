@@ -22,4 +22,10 @@ cat archivo             --> Para ver el contenido del archivo
 code archivo            --> Abrir el archivo en code
 git log                 --> Historial de los commit
 
+Si quiero volver a una versión anterior:
+1. git log y copiar el numero del commit
+2. git reset num. del commit --soft/--hard (Soft: Conserva toda la info Hard: Vuelve a la anterior y desaparece lo que se haya hecho despues)
+
 esc shift zz para salir de la pantalla de commit.
+
+
