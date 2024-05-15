@@ -21,6 +21,7 @@ git config              --> Configuración de mi git
 cat archivo             --> Para ver el contenido del archivo
 code archivo            --> Abrir el archivo en code
 git log                 --> Historial de los commit
+git diff                --> Para ver la diferencia de un archivo en stage
 
 Si quiero volver a una versión anterior:
 1. git log y copiar el numero del commit
