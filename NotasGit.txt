@@ -33,4 +33,6 @@ Si quisiera ver el archivo en una versión anterior (Volvemos al pasado con la p
 
 esc shift zz para salir de la pantalla de commit.
 
+Tener en cuenta que se usa el token en la psw para autenticación.
+
 
